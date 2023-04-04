@@ -1,0 +1,10 @@
+username = "myusername"
+password = "mypassword"
+
+inputUsername = input("Enter username: ")
+inputPassword = input("Enter password: ")
+
+if inputUsername == username and inputPassword == password:
+    print("Login successful!")
+else:
+    print("Incorrect username or password. Please try again.")
